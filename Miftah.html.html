@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruang Arah | Masuk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="halaman">
+    <section class="sisi-kiri">
+      <div class="logo"><span class="logo-icon">r.</span> ruang arah</div>
+
+      <div class="sambutan">
+        <p class="label-kecil">RUANG UNTUK BERTUMBUH</p>
+        <h1>Mulai dari<br>langkah <span>kecil.</span></h1>
+        <p class="deskripsi">Simpan ide, temukan arah, dan lanjutkan hal baik yang sedang kamu mulai.</p>
+      </div>
+
+      <div class="gambar-bentuk" aria-hidden="true">
+        <div class="matahari"></div>
+        <div class="jalan jalan-belakang"></div>
+        <div class="jalan jalan-depan"></div>
+        <div class="titik titik-satu"></div>
+        <div class="titik titik-dua"></div>
+      </div>
+
+      <p class="catatan-kiri">SATU LANGKAH DALAM SATU WAKTU.</p>
+    </section>
+
+    <section class="sisi-kanan">
+      <div class="atas-form">
+        <span>Sudah punya akun?</span>
+        <a href="#masuk">Masuk</a>
+      </div>
+
+      <form class="form-masuk" id="masuk">
+        <p class="label-kecil label-gelap">SELAMAT DATANG KEMBALI</p>
+        <h2>Masuk ke ruangmu.</h2>
+        <p class="teks-bantu">Masukkan detail akun untuk melanjutkan.</p>
+
+        <button class="tombol-google" type="button">G  &nbsp; Lanjutkan dengan Google</button>
+
+        <div class="pemisah"><span>atau gunakan email</span></div>
+
+        <label for="email">Email atau username</label>
+        <input type="text" id="email" name="email" placeholder="contoh@email.com" required>
+
+        <div class="baris-password">
+          <label for="kata-sandi">Kata sandi</label>
+          <a href="#bantuan" onclick="alert('Fitur pemulihan kata sandi belum tersedia.'); return false;">Lupa kata sandi?</a>
+        </div>
+        <input type="password" id="kata-sandi" name="kata-sandi" placeholder="Masukkan kata sandi" required>
+
+        <label class="ingat">
+          <input type="checkbox" name="ingat">
+          <span>Ingat saya</span>
+        </label>
+
+        <button class="tombol-masuk" type="submit">Masuk <span>→</span></button>
+        <p class="daftar">Belum punya akun? <a href="#daftar" onclick="alert('Fitur daftar belum tersedia.'); return false;">Buat akun</a></p>
+      </form>
+
+      <footer class="kaki-kanan">
+        <span>© 2026 Ruang Arah</span>
+        <a href="#bantuan" onclick="alert('Halaman bantuan belum tersedia.'); return false;">Butuh bantuan?</a>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
